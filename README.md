@@ -1,10 +1,10 @@
 # Optimización de Hiperparámetros en XGBoost 
 Este repositorio contiene la implementación y el análisis del estudio "Optimización de Hiperparámetros en XGBoost mediante Superficie de Respuesta", enfocado en mejorar la especificidad en la clasificación de cáncer de mama usando el conjunto de datos Diagnostic Wisconsin Breast Cancer Database.
 
-# Resumen
+## Resumen
 Este trabajo aplica la Metodología de Superficie de Respuesta (RSM, por sus siglas en inglés) para optimizar los hiperparámetros de XGBoost con el objetivo de mejorar su especificidad al clasificar casos de cáncer de mama. Inicialmente, XGBoost mostró el peor desempeño entre tres algoritmos comparados (Regresión Logística, Random Forest y XGBoost). Utilizando un diseño experimental Box-Behnken, se ajustaron sistemáticamente los hiperparámetros de XGBoost. La especificidad aumentó de aproximadamente 93% a más del 98%, superando métodos de ajuste como Grid Search, Optimización Bayesiana y Metaheurísticas.
 
-# Dataset
+## Dataset
 
 Nombre: Diagnostic Wisconsin Breast Cancer Database
 La aspiración con aguja fina, Fine-needle aspiration (FNA), es un procedimiento de diagnóstico que se utiliza para investigar masas (tumores). Los Features fueron calculados a partir de una imagen digitalizada de una FNA y describen las características de los núcleos celulares presentes en la imagen.
@@ -29,7 +29,7 @@ Diagnosis: (M = maligno, B = benigno), es la variable objetivo (target).
 
 Puede encontrar el dataset en el siguiente repositorio: [Breast Cancer Wisconsin](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 
-# Modelos Entrenados
+## Modelos Entrenados
 
 - Regresión Logística
 - Random Forest
@@ -41,7 +41,7 @@ Diagramas de dispersión e histogramas de las cuatro características más relev
 ![Diagrama](https://github.com/user-attachments/assets/30405aac-3c7d-488c-9232-6cc6a5b22975)
 
 
-# Resultados
+## Resultados
 
 - XGBoost tuvo el peor rendimiento base.
 - La optimización con RSM incrementó la especificidad del ~93% al >98%.
