@@ -38,6 +38,7 @@ Puede encontrar el dataset en el siguiente repositorio: [Breast Cancer Wisconsin
 Cada modelo fue entrenado y evaluado durante 30 ejecuciones para calcular media, mediana, desviación estándar e intervalos de confianza.
 
 Diagramas de dispersión e histogramas de las cuatro características más relevantes después del proceso de selección de características.
+
 ![Diagrama](https://github.com/user-attachments/assets/30405aac-3c7d-488c-9232-6cc6a5b22975)
 
 
