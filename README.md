@@ -12,18 +12,29 @@ La aspiración con aguja fina, Fine-needle aspiration (FNA), es un procedimiento
 Información de Variables:
 
 ID number: Número de identificación asignado a cada muestra en el dataset.
-Diagnosis: (M = malignant, B = benign), es el Target.
-10 características numéricas por cada célula
-Radius: promedio de las distancias desde el centro a puntos del perímetro, el cual representa el tamaño de las células.
-Texture: Desviación estandar de valores en la escala de grises.
-Perimeter: Longitud del perímetro del nucleo celular.
-Area: del núcleo celular
-Smoothness: variación local en longitud de radio
-Compactness: perímetro^2/area - 1.0: Mide qué tan compactas son las células.
-Concavity: severidad de las porciones cóncavas del contorno.
-Concave points: Número de porciones cóncavas del contorno.
-Symmetry: simetría del núcleo.
-Fractal dimension: Describe la complejidad de la forma del núcleo celular
+
+Diagnosis: (M = maligno, B = benigno), es la variable objetivo (target).
+
+10 características numéricas por cada célula:
+Radius: Promedio de las distancias desde el centro a puntos del perímetro, representa el tamaño de las células.
+
+Texture: Desviación estándar de los valores en la escala de grises.
+
+Perimeter: Longitud del perímetro del núcleo celular.
+
+Area: Área del núcleo celular.
+
+Smoothness: Variación local en la longitud del radio.
+
+Compactness: (perímetro² / área) - 1.0; mide cuán compactas son las células.
+
+Concavity: Severidad de las porciones cóncavas del contorno.
+
+Concave points: Número de porciones cóncavas en el contorno.
+
+Symmetry: Simetría del núcleo.
+
+Fractal dimension: Describe la complejidad de la forma del núcleo celular.
 Puede encontrar el dataset en el siguiente repositorio: [Breast Cancer Wisconsin](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
 
 # Modelos Entrenados
